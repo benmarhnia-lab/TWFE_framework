@@ -1,0 +1,53 @@
+﻿Model_index,category,combination
+1,spatial + temporal,ZCTA + year
+2,spatial + temporal,ZCTA + month
+3,spatial + temporal,ZCTA + week
+4,spatial + temporal,ZCTA+ year+month
+5,spatial + temporal,ZCTA+ year^month
+6,spatial^temporal,ZCTA^year
+7,spatial^temporal,ZCTA^month
+8,spatial^temporal,ZCTA^year+ZCTA^month
+9,spatial^temporal,ZCTA^year^month
+10,spatial^temporal,ZCTA^year+COUNTY^month
+11,spatial^temporal,COUNTY^year+ZCTA^month
+12,spatial^temporal,ZCTA^year + COUNTY^week
+13,spatial^temporal,ZCTA^year + COUNTY^year^month
+14,spatial^temporal,ZCTA^month + COUNTY^week
+15,spatial^temporal,ZCTA^month + COUNTY^year^month
+16,spatial^temporal,ZCTA^year^month + COUNTY^week
+17,spatial^temporal,COUNTY^week + ZCTA^year + COUNTY^month
+18,spatial^temporal,COUNTY^week + COUNTY^year + ZCTA^month
+19,spatial^temporal,COUNTY^week + ZCTA^year + ZCTA^month
+20,spatial + spatial^temporal,ZCTA + COUNTY^year
+21,spatial + spatial^temporal,ZCTA + COUNTY^month
+22,spatial + spatial^temporal,ZCTA + COUNTY^week
+23,spatial + spatial^temporal,ZCTA + COUNTY^year+COUNTY^month
+24,spatial + spatial^temporal,ZCTA + COUNTY^year^month
+25,spatial + spatial^temporal,ZCTA + COUNTY^year + COUNTY^week
+26,spatial + spatial^temporal,ZCTA + COUNTY^month + COUNTY^week
+27,spatial + spatial^temporal,ZCTA + COUNTY^week + COUNTY^year^month
+28,spatial + spatial^temporal,ZCTA + COUNTY^week + COUNTY^year + COUNTY^month
+29,temporal + spatial^temporal,year + ZCTA^month
+30,temporal + spatial^temporal,year + ZCTA^month + COUNTY^week
+31,temporal + spatial^temporal,month + ZCTA^year
+32,temporal + spatial^temporal,month + ZCTA^year + COUNTY^week
+33,temporal + spatial^temporal,week + ZCTA^year
+34,temporal + spatial^temporal,week + ZCTA^month
+35,temporal + spatial^temporal,week + ZCTA^year+ZCTA^month
+36,temporal + spatial^temporal,week + ZCTA^year^month
+37,temporal + spatial^temporal,week + ZCTA^year+COUNTY^month
+38,temporal + spatial^temporal,week + COUNTY^year+ZCTA^month
+39,temporal + spatial^temporal,week + ZCTA^month + COUNTY^year^month
+40,temporal + spatial^temporal,week + ZCTA^year + COUNTY^year^month
+41,spatial + temporal + spatial^temporal,ZCTA + year + COUNTY^month
+42,spatial + temporal + spatial^temporal,ZCTA + year + COUNTY^week
+43,spatial + temporal + spatial^temporal,ZCTA + year + COUNTY^month+ COUNTY^week
+44,spatial + temporal + spatial^temporal,ZCTA + month + COUNTY^year
+45,spatial + temporal + spatial^temporal,ZCTA + month + COUNTY^week
+46,spatial + temporal + spatial^temporal,ZCTA + month + COUNTY^year + COUNTY^week
+47,spatial + temporal + spatial^temporal,ZCTA + week + COUNTY^year
+48,spatial + temporal + spatial^temporal,ZCTA + week + COUNTY^month
+49,spatial + temporal + spatial^temporal,ZCTA + week + COUNTY^year+COUNTY^month
+50,spatial + temporal + spatial^temporal,ZCTA + week + COUNTY^year^month
+51,spatial + temporal + spatial^temporal,ZCTA + year + month + COUNTY^week
+52,spatial + temporal + spatial^temporal,ZCTA + year^month + COUNTY^week
