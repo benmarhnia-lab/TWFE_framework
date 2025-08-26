@@ -2,7 +2,7 @@
 
 ## Authors
 
-- Yiqun Ma, Jordan Kaplan, David H. Rehkopf, Benjamin Huynh, Tarik Benmarhnia, Mathew V. Kiang
+Yiqun Ma, Jordan Kaplan, David H. Rehkopf, Benjamin Huynh, Tarik Benmarhnia, Mathew V. Kiang
 
 ## R Version
 
