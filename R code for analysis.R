@@ -1,6 +1,6 @@
 ### Two-way fixed effects models in air pollution epidemiology
 ### a proposed framework for model specifications and recommendations for future studies
-### Yiqun Ma, UCSD, 08/26/2025
+
 
 library(dplyr)
 library(fixest)
@@ -169,3 +169,4 @@ for (i in 1:length(VCOVs)){
   table.SE[i,"SE"] <- SE
   table.SE[i,"P"] <- P
 }
+
