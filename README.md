@@ -2,7 +2,7 @@
 
 ## Authors
 
-Yiqun Ma, Jordan Kaplan, David H. Rehkopf, Benjamin Huynh, Tarik Benmarhnia, Mathew V. Kiang
+Temporarily hidden to meet requirements for anonymized manuscripts
 
 ## R Version
 
